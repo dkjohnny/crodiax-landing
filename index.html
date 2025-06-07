@@ -2,65 +2,85 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crodiax - Inversión Inmobiliaria</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crodiax</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
 </head>
-<body class="bg-white text-gray-800 font-sans">
+<body class="bg-white text-gray-800">
 
-    <!-- Header -->
-    <header class="flex justify-between items-center p-6 shadow">
-        <div class="text-2xl font-bold text-blue-700">CRODIAX</div>
-        <div class="space-x-4 flex items-center">
-            <a href="#" aria-label="Instagram"><img src="https://cdn-icons-png.flaticon.com/24/1384/1384063.png" alt="IG"></a>
-            <a href="#" aria-label="TikTok"><img src="https://cdn-icons-png.flaticon.com/24/3046/3046121.png" alt="TikTok"></a>
-            <a href="#" aria-label="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/24/1384/1384014.png" alt="LinkedIn"></a>
-            <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Iniciar sesión</button>
-        </div>
-    </header>
+  <!-- Header -->
+  <header class="flex justify-between items-center px-6 py-4 shadow-md">
+    <h1 class="text-xl font-bold text-blue-700">CRODIAX</h1>
+    <nav class="flex gap-4 items-center">
+      <a href="#" aria-label="Instagram"><img src="https://cdn-icons-png.flaticon.com/24/1384/1384063.png" alt="Instagram"></a>
+      <a href="#" aria-label="TikTok"><img src="https://cdn-icons-png.flaticon.com/24/3046/3046121.png" alt="TikTok"></a>
+      <a href="#" aria-label="LinkedIn"><img src="https://cdn-icons-png.flaticon.com/24/1384/1384014.png" alt="LinkedIn"></a>
+      <button class="bg-blue-600 text-white text-sm px-4 py-2 rounded hover:bg-blue-700">Iniciar sesión</button>
+    </nav>
+  </header>
 
-    <!-- Hero -->
-    <section class="text-center py-16 px-4">
-        <h1 class="text-3xl sm:text-4xl font-bold text-blue-800 mb-4">Invierte en bienes raíces con nosotros</h1>
-        <p class="text-gray-600 max-w-xl mx-auto mb-6">Oportunidades de inversión en el sector inmobiliario de forma segura y transparente.</p>
-        <button class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 text-lg">Regístrate</button>
-    </section>
+  <!-- Hero -->
+  <section class="text-center px-6 py-14 bg-gradient-to-b from-white to-blue-50">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-4">Invierte en bienes raíces con nosotros</h2>
+      <p class="text-gray-600 mb-6">Oportunidades de inversión en el sector inmobiliario de forma segura y transparente.</p>
+      <button class="bg-blue-600 text-white px-6 py-3 rounded text-lg hover:bg-blue-700">Regístrate</button>
+    </div>
+    <div class="mt-10">
+      <img src="https://cdn-icons-png.flaticon.com/512/6191/6191032.png" alt="Edificio" class="mx-auto w-40 md:w-60">
+    </div>
+  </section>
 
-    <!-- Cómo funciona -->
-    <section class="py-12 bg-gray-50">
-        <h2 class="text-2xl font-semibold text-center text-blue-800 mb-10">Cómo funciona</h2>
-        <div class="flex flex-wrap justify-center gap-12">
-            <div class="text-center">
-                <img src="https://cdn-icons-png.flaticon.com/64/2942/2942822.png" class="mx-auto mb-2" alt="Explora">
-                <p class="font-medium">Explora proyectos</p>
-            </div>
-            <div class="text-center">
-                <img src="https://cdn-icons-png.flaticon.com/64/942/942748.png" class="mx-auto mb-2" alt="Firma">
-                <p class="font-medium">Regístrate y firma</p>
-            </div>
-            <div class="text-center">
-                <img src="https://cdn-icons-png.flaticon.com/64/1170/1170576.png" class="mx-auto mb-2" alt="Ganancias">
-                <p class="font-medium">Recibe ganancias</p>
-            </div>
-        </div>
-    </section>
+  <!-- Cómo funciona -->
+  <section class="py-16 bg-white">
+    <h3 class="text-2xl font-semibold text-center text-blue-800 mb-10">Cómo funciona</h3>
+    <div class="flex flex-col md:flex-row justify-center gap-12 px-6">
+      <div class="text-center">
+        <img src="https://cdn-icons-png.flaticon.com/64/2942/2942822.png" class="mx-auto mb-2" alt="Explora">
+        <p class="font-medium">Explora proyectos</p>
+      </div>
+      <div class="text-center">
+        <img src="https://cdn-icons-png.flaticon.com/64/942/942748.png" class="mx-auto mb-2" alt="Firma">
+        <p class="font-medium">Regístrate y firma</p>
+      </div>
+      <div class="text-center">
+        <img src="https://cdn-icons-png.flaticon.com/64/1170/1170576.png" class="mx-auto mb-2" alt="Ganancias">
+        <p class="font-medium">Recibe ganancias</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contacto -->
-    <section class="py-12 px-4 max-w-xl mx-auto">
-        <h2 class="text-2xl font-semibold text-center text-blue-800 mb-6">Contáctanos</h2>
-        <form class="space-y-4">
-            <input type="text" placeholder="Nombre" class="w-full border p-3 rounded">
-            <input type="email" placeholder="Correo electrónico" class="w-full border p-3 rounded">
-            <textarea placeholder="Mensaje" class="w-full border p-3 rounded h-32"></textarea>
-            <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 w-full">Enviar</button>
-        </form>
-    </section>
+  <!-- Contacto -->
+  <section class="bg-gray-50 py-14 px-6">
+    <h3 class="text-2xl font-semibold text-center text-blue-800 mb-8">Contáctanos</h3>
+    <form class="max-w-xl mx-auto space-y-4">
+      <div class="flex flex-col md:flex-row gap-4">
+        <input type="text" placeholder="Nombre" class="flex-1 border p-3 rounded" required>
+        <input type="email" placeholder="Correo electrónico" class="flex-1 border p-3 rounded" required>
+      </div>
+      <textarea placeholder="Mensaje" class="w-full border p-3 rounded h-32 resize-none" required></textarea>
+      <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded hover:bg-blue-700">Enviar</button>
+    </form>
+  </section>
 
-    <!-- Footer -->
-    <footer class="text-center text-sm text-gray-500 py-6">
-        <a href="#" class="hover:underline">Términos y condiciones</a>
-    </footer>
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-500 py-6">
+    <a href="#" class="hover:underline">Términos y condiciones</a>
+  </footer>
+
+  <!-- Chatbot icon -->
+  <div class="fixed bottom-6 right-6">
+    <button class="bg-blue-600 p-3 rounded-full shadow-lg hover:bg-blue-700">
+      <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Chat" class="w-6 h-6">
+    </button>
+  </div>
 
 </body>
 </html>
